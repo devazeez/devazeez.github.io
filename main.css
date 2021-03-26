@@ -16,6 +16,9 @@ nav{
     text-decoration: none;
     color:white;
 }
+.A{
+    font-size: 25px;
+}
 .logodiv{
     padding: 0px 0px 0px 20px;
 }
@@ -54,6 +57,7 @@ nav{
 }
 .bodyheader{
     text-align: center;
+    font-size: 35px;
 }
 .accountscontiner{
     text-align: center;
@@ -70,7 +74,7 @@ button{
     color: white;
     background-color: black;
     border: none;
-    font-size: 15px;
+    font-size: 11.5px;
     border-radius: 30px;
     cursor:pointer;
     padding: 10px 20px 10px 20px;
