@@ -4,110 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=hfjudrju, initial-scale=1.0">
-    <title>Azeez.com </title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/jpg" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div id="nav-bar">
-        <div class="navcontainer">
-            <div>
-                <h2><span>A</span>ZEEZ</h2>
-            </div>
-        </div>
-        <div class="menu">
-            <!-- <div class="hamburger"><div class="bar"> </div></div> -->
-            <ul>
-                
-                <a href="#portfolio"><li>portfolio</li></a>
-                <a href="#contact"><li>contact</li></a>
+
+    <nav>
+        <div class="nav-bar">
+
+            <div class="logo">Snapshot</div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
+
+            <div class="hamburger" id="nav-toggle">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <div class="hero-section">
+        <div class="hero-content-heading">
+            <h3>Let's take a snapshot</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero beatae quod molestias voluptas nam <br> facere numquam quos pariatur repellendus excepturi!</p>
+        </div>
+        <div class="hero-content-btn">
+            <a href="#">Learn More</a>
         </div>
     </div>
-    <!--Hero section-->
-    <section id="hero">
-        <div class="hero container">
-            <div>
-                <!-- <img src="https://pbs.twimg.com/media/EHMhIgoWkAA9sf8?format=jpg&name=large" alt=""> -->
-                <h1>Hi</h1>
-                <h1>I'm Azeez</h1>
-                <p>I create beautiful, fast and responsive website</p>
-                <a href="#contact" type="button" class="cta">contact</a>
+
+    <!-- sub-hero section -->
+    <div class="hero-background">
+        <div class="background">
+            <h4>Background</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus sint ab rerum obcaecati totam neque quam corrupti dolores? Ipsam tempora consequatur quaerat. Voluptates accusamus molestiae nulla sapiente explicabo tempore possimus?</p>
+        </div>
+        <div class="hero-background-pos"></div>
+    </div>
+    <div class="snapshot-team">
+        <h2>Snapshot Team</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, nesciunt!</p>
+    </div>
+    <div class="snapshot-box">
+        <div class="snapshot-box-content">
+            <div class="box1">
+                <div class="circle"></div>
+                <h5>Linda, Manager</h5>
+            </div>
+            <div class="box1">
+                <div class="circle"></div>
+                <h5>Linda, Manager</h5>
+            </div>
+            <div class="box3">
+                <div class="circle"></div>
+                <h5>Linda, Manager</h5>
             </div>
         </div>
-    </section>
-    <!--End Hero section-->
-    <!-- portfolio section -->
-    <section id="portfolio">
-        <div class="portfolio container">
-            <div>
-                <h1>Portfolio</h1>
-                <P>Have a look at my portfolio Today!</P>
-                <a href="resume.pdf" type="button" target="_blank" class="cta">download</a>
-            </div>
+    </div>
+
+    <!-- Gallery section -->
+    <div class="gallery-section">
+        <div class="gallery-content">
+            <h4>Gallery</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sapiente. Nullae rem!</p>
         </div>
-    </section>
-    <section id="stack">
-        <div class="stack container">
-            <div class="stack-head">
-                <div>
-                    <h1>I am a Front-end developer.</h1>
-                    <div class="stack-body">
-                        <div class="stack-item ">
-                            <div class="stack-icon">
-                                <img src="html-icon.png" alt="">
-                            </div>
-                            <div class="stack-description">
-                                <p>I use HTML for Front-end works as it serves as the structre of webpages.</p>
-                            </div>
-                        </div>
-                        <div class="stack-item1">
-                            <div class="stack-icon">
-                                <img src="css-icon.png" alt="">
-                            </div>
-                            <div class="stack-description">
-                                <p>I use CSS for Front-end works to properly give my wab pages their suited styles.</p>
-                            </div>
-                        </div>
-                        <div class="stack-item2">
-                            <div class="stack-icon">
-                                <img src="javascript-icon.png" alt="">
-                            </div>
-                            <div class="stack-description">
-                                <p>I use JS to give webpages additional functionality that isn't otherwise achievable
-                                    with HTML and CSS alone.</p>
-                            </div>
-                        </div>
-                    </div>
+        <div class="gallery-img">
+            <div>
+                <div class="img">
+                    <img src="https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg" alt="">
                 </div>
-    </section>
-    <!-- portfolio section -->
-    <!-- contact section -->
-    <section id="contact">
-        <div class="contact container">
+                <div class="img">
+                    <img src="https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg" alt="">
+                </div>
+            </div>
             <div>
-                <h1>Get in touch</h1>
-                <P class="p-head">Want to get in touch?</P>
-                <p>I'd love to hear from you. here's how you can reach me</P>
-                <div class="accountscontainer">
-                    <a href="https://github.com/devazeez" target="blank"> <img src="github.png" class="gitimg"
-                            alt=""></a>
-                    <a href="https://www.instagram.com/_azeez.ola/" target="blank"><img src="instagram.png"
-                            class="facebookimg" alt=""></a>
-                    <a href="https://twitter.com/__zeez_" target="blank"><img src="twittwer.png" class="facebookimg"
-                            alt=""></a>
-                    <a href="https://www.figma.com/file/567pJGf1h63qZOmDkQZh3k/workspace?node-id=0%3A1"
-                        target="blank"><img src="figma.png" class="figmaimg" alt=""></a>
-                    <a href="https://www.linkedin.com/in/ibrahim-azeez-718529162/" target="blank"><img
-                            src="linkedin.png" class="facebookimg" alt=""></a>
+                <div class="img">
+                    <img src="https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg" alt="">
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Footer section -->
+    <div class="footer">
+        <div class="footer-content">
+            <h4>Send a message</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sapiente. Nuleos rem!</p>
         </div>
-    </section>
-    <!-- contact section -->
+        <div class="footer-input">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="footer-textarea">
+            <textarea placeholder="Message"></textarea>
+        </div>
+        <div class="footer-btn">
+            <a href="#">Send Message</a>
+        </div>
+        <h6>Copyright &copy; 2021 Zuri Training.</h6>
+    </div>
+    <script src="./index.js"></script>
 </body>
+
 </html>
