@@ -3,9 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
+/* html{
     font-size: 10px;
-}
+} */
 a{
     text-decoration: none;
 }
@@ -13,7 +13,7 @@ a{
     min-height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 /* hero section */
@@ -23,6 +23,7 @@ a{
     background-position: top center;
     position: relative;
     z-index: 1;
+    
 }
 #hero .hero{
     max-width: 1200px;
@@ -49,7 +50,7 @@ a{
 }
 #hero h1:nth-child(3){
     animation-delay: 3s;
-    animation: text_reveal_name .5s ease forwards;
+    /* animation: text_reveal_name .5s ease forwards; */
 }
 #hero h1:nth-child(1) span{
     animation-delay: .5s;
@@ -65,7 +66,7 @@ a{
     width: fit-content;
     color:transparent;
     position: relative;
-    font-size: 4rem;
+    font-size: 2rem;
     animation: text_reveal .4s ease forwards;
     animation-delay: 1s;
 }
@@ -85,7 +86,7 @@ a{
     color: white;
     background-color:transparent ;
     border: 2px solid crimson ;
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
@@ -103,6 +104,159 @@ a{
 
 
 /* end of hero section */
+
+/* Service section */
+#services{
+}
+#services .services{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#services .section-title{
+    font-size: 3rem;
+    font-weight: 300;
+    color: black;
+    margin: 10px;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+#services .section-title span{
+    color: crimson;
+}
+#services .service-top p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 1.9rem;
+    font-size: 300;
+    letter-spacing: .04rem;
+}
+#services .service-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#services .service-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(background_img.jpg); 
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;    
+}
+
+#services .service-item ::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .15;
+    z-index: -1;
+    overflow: hidden;
+}
+#services .service-item h2{
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#services .service-item P{
+    color: white;
+    text-align: left; 
+    font-size: 1.rem;
+    line-height: 1.2rem;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes text_reveal_box{
     50%{
         width:100%;
