@@ -20,7 +20,10 @@ a{
 #hero{
     background-image: url(background_img.jpg); 
     background-size: cover;
-    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    background-position: center;
     position: relative;
     z-index: 1;
     
@@ -127,7 +130,7 @@ a{
     color: crimson;
 }
 #services .service-top p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin-top: 5px;
     line-height: 1.9rem;
     font-size: 300;
