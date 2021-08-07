@@ -94,6 +94,8 @@ a{
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        transform: scale(.8);
+        margin: 20px;
     }
     #header .hamburger .bar{
         height: 2px;
