@@ -9,6 +9,27 @@ hamburger.addEventListener('click',()=>{
 
 })
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0px";
+  } else {
+    document.getElementById("header").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+// window.onscroll = function() {scrollFunction()};
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+//     document.getElementById("header").style.top = "0";
+//   } else {
+//     document.getElementById("header").style.top = "-100px";
+//   }
+// }
+
 
 
 

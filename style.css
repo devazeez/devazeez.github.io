@@ -38,6 +38,12 @@ a{
         max-width: 1300px;
         padding: 0 15px;
     }
+    .brand h1{
+        color: crimson;
+    }
+    .brand h1 span{
+        color: white
+    }
     #header .nav-list ul{
         list-style: none;
         position: absolute;
