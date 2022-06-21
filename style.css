@@ -416,3 +416,17 @@ a{
         color: crimson;
     }
 }
+
+
+
+
+@media only screen and (max-width: 375px) {
+    #hero h1 {
+      font-size: 20px;
+      padding: 3px;
+    }
+    .lasth1{
+        line-height: 25px;
+        
+    }
+  }
