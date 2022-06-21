@@ -242,17 +242,11 @@ a{
     color: white;
     background-color: crimson;
 }
-
-
-
-
-
-
 /* end of hero section */
 
 /* Service section */
 #services{
-}
+    }
 #services .services{
     flex-direction: column;
     text-align: center;

@@ -8,7 +8,7 @@ hamburger.addEventListener('click',()=>{
 
 
 })
-
+// The scroll effect on the navbar  ************
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
